@@ -1,0 +1,136 @@
+/*45DB00 GREEN
+F3F3F3 off white
+009102 Darker GREEN
+all uppercase
+*/
+.altPrintGreen{
+	background-color: #E6E6E6 !important;
+}
+.altColorGreen{
+	background-color: #ECFBE6;
+}
+.altColorWhite{
+	background-color: #FFFFFF;
+}
+.altHighlightRow{
+	background-color: #45DB00 !important;
+	color: #FFFFFF !important;
+}
+.findme {
+	border-style: solid;
+	border-color: #FF0000;
+	border-width: 1px;
+}
+@media (min-width: 768px) {
+	.main-window {
+		max-width: 600px;
+	}
+}
+@media (max-width: 767px) {
+	.main-window {
+		max-width: 350px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+.main-window{
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #45DB00;
+	border-radius: 6px;
+	margin-top: 30px;
+}
+
+body {
+	background-color: #F3F3F3;
+	padding-top: 52px;
+}
+a {
+    color: #45DB00;
+}
+.TR-Separator{
+	height: 1px;
+	width: 80%;
+	border-style: solid;
+	border-color:#45DB00;
+	border-width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.TR-Table{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+    border-collapse: collapse !important;
+}
+.TR-Table > thead > tr > th,
+.TR-Table > tbody > tr > th,
+.TR-Table > tfoot > tr > th,
+.TR-Table > thead > tr > td,
+.TR-Table > tbody > tr > td,
+.TR-Table > tfoot > tr > td {
+  padding: 5px;
+  line-height: 1.42857143;
+  vertical-align: top;
+}
+.TR-Table > thead > tr > th {
+  vertical-align: bottom;
+}
+.locked{
+	color: #A8A8A8 !important;
+}
+.td-width-narrow{
+	width: 5%;
+}
+.td-width-medium{
+	width: 10%;
+}
+.td-width-wide{
+	
+}
+.current-selection{
+	font-weight: bold;
+	background-color: #00FF00;
+}
+.sprite-Republican, .sprite-Likely-Republican, .sprite-Independant, .sprite-Likely-Democrat, .sprite-Democrat, .sprite-Unknown{
+    width: 83px;
+    height: 75px;
+}
+.sprite-Republican{
+    background: url(../images/PartySprites.gif) 0 0;
+}
+.sprite-Likely-Republican{
+    background: url(../images/PartySprites.gif) 0 -74px;
+}
+.sprite-Independant{
+    background: url(../images/PartySprites.gif) 0 -146px;
+}
+.sprite-Likely-Democrat{
+    background: url(../images/PartySprites.gif) 0 -224px;
+}
+.sprite-Democrat{
+    background: url(../images/PartySprites.gif) 0 -300px;
+}
+.sprite-Unknown{
+    background: url(../images/PartySprites.gif) 0 -380px;
+}
+.sprite-Republican:hover{
+    background: url(../images/PartySprites.gif) -84px 0px;
+}
+.sprite-Likely-Republican:hover{
+    background: url(../images/PartySprites.gif) -84px -74px;
+}
+.sprite-Independant:hover{
+    background: url(../images/PartySprites.gif) -84px -146px;
+}
+.sprite-Likely-Democrat:hover{
+    background: url(../images/PartySprites.gif) -84px -224px;
+}
+.sprite-Democrat:hover{
+    background: url(../images/PartySprites.gif) -84px -300px;
+}
+.sprite-Unknown:hover{
+    background: url(../images/PartySprites.gif) -84px -380px;
+}
+
